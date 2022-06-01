@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 98b945d5-95ef-4a3c-94ca-fcb7749608d3
+    AppIdFusion: 
+    AppIdChat: 26983b05-ee58-4855-9331-00729798e681
+    AppIdVoice: 0b674b60-4432-4690-8ad1-25f7eae52da5
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: eu
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - FireGrenadeRpc
+  - FireGrenadeRPC
+  - FireSync
+  - NetworkBRPlayer
+  - PickUpHealth
+  - RpcAIFire
+  - RpcChangePointState
+  - RpcDoDamage
+  - RPCFireCustom
+  - RPCHeliFire
+  - RPCMatchState
+  - RpcReload
+  - RPCSetWBlocked
+  - RPCShooterBot
+  - RpcStartTime
+  - RPCSyncGame
+  - RpcSyncHealth
+  - RpcTankFire
+  - SyncAIWeapon
+  - SyncAllBotsStats
+  - SyncBotStat
+  - SyncCoverPointGame
+  - SyncCustomizer
+  - SyncDamage
+  - SyncElimGame
+  - SyncOffAmmoGrenade
+  - VehicleRpc
+  - CantHearYou
+  - ChangeColour
+  - DestroySpaceship
+  - Fire
+  - HeresWhy
+  - RespawnSpaceship
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0

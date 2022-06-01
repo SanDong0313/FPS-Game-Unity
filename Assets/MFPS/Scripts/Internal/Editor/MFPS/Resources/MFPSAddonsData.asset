@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f925aecb906ea947a333a1c249d8198, type: 3}
+  m_Name: MFPSAddonsData
+  m_EditorClassIdentifier: 
+  Addons:
+  - NiceName: Demolition
+    KeyName: DM
+    LastVersion: 1.2.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0.8
+    FolderName: GameModes/Demolition
+    ChangeLog: []
+  - NiceName: Clan System
+    KeyName: CLANS
+    LastVersion: 2.0.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.1
+    FolderName: ClanSystem
+    ChangeLog: []
+  - NiceName: Class Customization
+    KeyName: CLASS_CUSTOMIZER
+    LastVersion: 1.7.5
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.6
+    FolderName: ClassCustomization
+    ChangeLog: []
+  - NiceName: Customizer
+    KeyName: CUSTOMIZER
+    LastVersion: 1.9.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.5.3
+    FolderName: Customizer
+    ChangeLog: []
+  - NiceName: Domination
+    KeyName: CP
+    LastVersion: 1.5.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.4
+    FolderName: GameModes/CovertPoint
+    ChangeLog: []
+  - NiceName: Elimination
+    KeyName: ELIM
+    LastVersion: 1.2.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0.1
+    FolderName: GameModes/Elimination
+    ChangeLog: []
+  - NiceName: Mobile Control
+    KeyName: MFPSM
+    LastVersion: 1.5.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.2.8
+    FolderName: FPSMobileControl
+    ChangeLog: []
+  - NiceName: Third Person View
+    KeyName: MFPSTPV
+    LastVersion: 1.1.0
+    Info: {fileID: 11400000, guid: 4ee1e5441bc106749b5240537ba933d0, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.4
+    FolderName: ThirdPersonView
+    ChangeLog: []
+  - NiceName: Gun Race
+    KeyName: GR
+    LastVersion: 1.3.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.1.8
+    FolderName: GameModes/GunRace
+    ChangeLog: []
+  - NiceName: Kill Streaks
+    KeyName: KSA
+    LastVersion: 1.1.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.7
+    FolderName: Kill Streaks
+    ChangeLog: []
+  - NiceName: Kill Streak Notifier
+    KeyName: KILL_STREAK
+    LastVersion: 1.4
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.3.8
+    FolderName: KillNotifier
+    ChangeLog: []
+  - NiceName: Level Manager
+    KeyName: LM
+    LastVersion: 1.5.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.5.0
+    FolderName: LevelSystem
+    ChangeLog: []
+  - NiceName: Localization
+    KeyName: LOCALIZATION
+    LastVersion: 1.2.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0.9
+    FolderName: Localization
+    ChangeLog: []
+  - NiceName: Player Selector
+    KeyName: PSELECTOR
+    LastVersion: 1.7.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.5
+    FolderName: PlayerSelector
+    ChangeLog: []
+  - NiceName: Scope Pro
+    KeyName: 
+    LastVersion: 1.3.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ScopePro
+    ChangeLog: []
+  - NiceName: Shop
+    KeyName: SHOP
+    LastVersion: 1.2.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.2
+    FolderName: Shop
+    ChangeLog: []
+  - NiceName: Unity IAP for Shop
+    KeyName: SHOP_UIAP
+    LastVersion: 1.0.3
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Shop/Payments/UnityIAP
+    ChangeLog: []
+  - NiceName: Paypal for Shop
+    KeyName: SHOP_PAYPAL
+    LastVersion: 1.0.3
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Shop/Payments/Paypal
+    ChangeLog: []
+  - NiceName: UCompass Bar
+    KeyName: 
+    LastVersion: 1.1.8
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.1
+    FolderName: UCompassBar
+    ChangeLog: []
+  - NiceName: Mini Map
+    KeyName: UMM
+    LastVersion: 2.4.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 2.3
+    FolderName: UGUIMiniMap
+    ChangeLog: []
+  - NiceName: ULogin Pro
+    KeyName: ULSP
+    LastVersion: 2.0.2
+    Info: {fileID: 11400000, guid: 2a81664e1302fce4cbde5078207b1a44, type: 2}
+    CurrentVersion: 2.0.2
+    MinVersion: 1.9.47
+    FolderName: ULoginSystemPro
+    ChangeLog: []
+  - NiceName: Weapon Pack #1
+    KeyName: 
+    LastVersion: 1.3.0
+    Info: {fileID: 11400000, guid: 72b58cf0da0a2a2479b73d553422c0b3, type: 2}
+    CurrentVersion: 1.3.0
+    MinVersion: 1.2
+    FolderName: WeaponPack[1]
+    ChangeLog: []
+  - NiceName: Weapon Pack #2
+    KeyName: 
+    LastVersion: 1.0.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0.0
+    FolderName: WeaponPack[2]
+    ChangeLog: []
+  - NiceName: Waiting Room Pro
+    KeyName: 
+    LastVersion: 1.1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0.8
+    FolderName: WaitingRoomPro
+    ChangeLog: []
+  - NiceName: 'Vehicle: Car'
+    KeyName: MFPS_VEHICLE
+    LastVersion: 1.1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Vehicles/Cars
+    ChangeLog: []
+  - NiceName: Facebook Login
+    KeyName: 
+    LastVersion: 1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ULoginSystemPro/Authenticators/Facebook
+    ChangeLog: []
+  - NiceName: Google Login
+    KeyName: 
+    LastVersion: 1.0.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ULoginSystemPro/Authenticators/Google
+    ChangeLog: []
+  - NiceName: Player Pack #1
+    KeyName: 
+    LastVersion: 1.1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: PlayerPacks/Pack[1]
+    ChangeLog: []
+  - NiceName: Game Resume Pro
+    KeyName: 
+    LastVersion: 1.1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: GameResumePro
+    ChangeLog: []
+  - NiceName: Floating Text
+    KeyName: FT
+    LastVersion: 1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: FloatingText
+    ChangeLog: []
+  - NiceName: Layout Customizer
+    KeyName: LCZ
+    LastVersion: 1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: UILayoutCustomizer
+    ChangeLog: []
+  - NiceName: Discord Login
+    KeyName: 
+    LastVersion: 1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.8.2
+    FolderName: ULoginSystemPro/Authenticators/Discord
+    ChangeLog: []
+  - NiceName: Emblems and Playercards
+    KeyName: EACC
+    LastVersion: 1.0.2
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.9
+    FolderName: EmblemsAndCards
+    ChangeLog: []
+  - NiceName: Input Manager
+    KeyName: INPUT_MANAGER
+    LastVersion: 1.7
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.6
+    FolderName: InputManager
+    ChangeLog: []
+  - NiceName: Player Pack #2
+    KeyName: 
+    LastVersion: 1.0.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: PlayerPacks/Pack[2]
+    ChangeLog: []
+  - NiceName: 'Vehicle: Tank'
+    KeyName: MFPS_VEHICLE
+    LastVersion: 1.0
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Vehicles/Tank
+    ChangeLog: []
+  - NiceName: Kill Confirmed
+    KeyName: 
+    LastVersion: 1.0.1
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: GameModes/KillConfirmed
+    ChangeLog: []
+  - NiceName: Vouchers
+    KeyName: VOUCHERS
+    LastVersion: 1.0.1
+    Info: {fileID: 11400000, guid: a7615aaaea6a2084db61c9d786be6cf6, type: 2}
+    CurrentVersion: 1.0.0
+    MinVersion: 1.9
+    FolderName: Vouchers
+    ChangeLog: []
+  AutoUpdate: 0

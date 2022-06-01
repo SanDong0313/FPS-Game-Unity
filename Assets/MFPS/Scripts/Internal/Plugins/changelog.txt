@@ -1,0 +1,108 @@
+1.9.1
+
+# Improvements
+
+-IMPROVED: Added acceleration to the weapon procedural run animation for a smoother transition.
+-IMPROVED: Added fire delay on the first weapon shot when the player is running to avoid shooting while the weapon is not aiming forward.
+-IMPROVED: Kill Cam - Observe Death mode position calculation.
+-IMPROVED: Now screen resolution setting is saved and automatically applied on new sessions.
+-IMPROVED: Now you can change the crouch height in the bl_FirstPersonController inspector.
+
+# Fixes
+
+-FIX: Join buttons appear even when Auto Team Selection is enabled.
+-FIX: FP Weapons that uses custom walk and run animations sometimes appear with wrong aim position.
+-FIX: In-game Drops did not spawn the item after finishing the delivery.
+-FIX: Error that sometimes happens when a remote player switches to the bare hands animation.
+-FIX: Issue that cause the player not able to close the menu when use 'Direct To Map' room join method and cancel enter spectator mode.
+-FIX: Resolution change was not working in Lobby settings menu.
+-FIX: Error when 'Direct To Map' room join method is used and a bot gets killed.
+-FIX: Can't leave spectator mode with the UI button using a mouse.
+-FIX: Quick fire (G) for grenades and molotov's was not working.
+-FIX: Adding not allowed maps cause an error when creating a room with addons game modes.
+-FIX: Can't use stealth mode walking sideways or backward.
+-FIX: Health regeneration synchronization problem that caused players to get invisible sometimes after eliminating them.
+-FIX: The player remains on the scoreboard after he leaves the game if the scoreboard is not open.
+-FIX: Orbit Target kill camera mode was not working.
+-FIX: Bots randomly bend down when running towards a target.
+-FIX: Coins and Clan score is not saved in per round based matches.
+
+1.9
+
+-CHANGE: Input Manager now comes with the core package, the formerly addon is now integrated and used as the default input system allowing rebinding inputs in runtime and adding support for xbox controller.
+-CHANGE: Upgrade to Text Mesh Pro, now all the UI Elements (Text, Drop-downs and Input-fields) are now using TMP instead of UGUI.
+-IMPROVE: Added MFPS installer assistant, now when you import MFPS, a window will appear to guide you for a seamless installation of MFPS and its dependencies.
+-CHANGE: Now the MFPS package comes with Photon PUN (only the required files), is no longer needed to import Photon plugin before the MFPS package.
+-IMPROVE: The majority of the game scripts now are inheritable allowing you to use your own scripts variations without breaking references and without code refactorization needed.
+-ADD: Game session verification, if enabled, the game will verify at the initial connection that the player has not another game session opened at the same time with the same account.
+-FIX: Bots teammate death icons don't show for non-master client players.
+-ADDON: New Kill Confirmed game mode addon, LINK: https://www.lovattostudio.com/en/shop/addons/kill-confirmed/
+-ADD: Bullet drop, physic calculation using Heun's method's to simulate a realistic ballistic, you can define the amount of the drop per weapon.
+-IMPROVE: Make it easier to replace player animations by using Animator Override Controllers.
+-IMPROVE: Less buffered RPCs usage overall, less band-weight per player = more players per room allowed
+-ADD: Door System, an optimized multiplayer door system, easy to use and capable to use in large maps with lots of doors instances.
+-FIX: Double screen fade out when manually leaving a room.
+-ADDON: Emblems and Calling Cards addon, allows player customize their player card with emblems and calling cards in a better Kill Cam UI, LINK: https://www.lovattostudio.com/en/shop/gui/emblems-and-calling-cards/
+-IMPROVE: Added FOV slider in the in-game settings menu.
+-ADD: Unified Input indicator UI, a singleton class to show a UI to let players know when an interactable item requires an input.
+-IMPROVE: Mouse look aim, now the sensitivity is calculated by the aim zoom instead of a fixed value.
+-FIX: PhotonView error at the beginning of the match due to duplicate view IDs from bots.
+-ADD: 'Aim while sprinting' options, now you can decide between Stop sprinting, Block Aim, or Allow Aim while sprinting.
+-FIX: Bots scoreboard UI doesn't disappear when it's replaced in the middle of a match.
+-ADDON: Vehicle: Tank, multiplayer tank controller, LINK: https://www.lovattostudio.com/en/shop/addons/vehicle-tank/
+-IMPROVE: New, better, and unified HitBox system now is the same interface for both players and bots prefabs.
+-IMPROVE: Now is possible to download and import the addons from the Unity Editor through the MFPS Addons Manager window.
+-ADD: Multiple virtual coins support, allowing having a coin to earn by playing the game and another only accessible by purchasing it (optional).
+-IMPROVE: Weapon pickup throwing physics, now the weapon is thrown where the player is looking at instead of a fixed point.
+-ADDON: Floating Text addon, a highly optimized system to show floating damage numbers similar to games like APEX Legend and Fortnite, LINK: https://www.lovattostudio.com/en/shop/gui/floating-text/
+-ADD: Bullet Decal Manager, now the bullet decals are handled separately from the main pool system, now decals do not disappear after a delay and they appear with a random scale.
+-FIX: The player was able to sprint moving side-ways or backward.
+-ADD: Per Map allowed game modes, now you can define which modes are allowed in each map, in the Map scene info.
+-IMPROVE: Sniper scope aim transition.
+-ADD: Sniper scope breathing movement effect, the amount of movement can be assigned per weapon.
+-ADD: New default lobby window 'Barraks' to better integrate addons menus in the lobby (Player Clan, Avatar, Calling Card, Level Progress, and Ranking windows).
+-FIX: An error that provokes pick-up weapons multiplies the ammunition with each pickup.
+-IMPROVE: Player third-person movement animations, fixing the issue with walking-in-diagonal legs animation mixing.
+-ADD: Ping counter, text in the top right corner of the screen indicating the current ping of the local player connection.
+-ADDON: Layout Customizer: allows players to modify UI elements in runtime, LINK: https://www.lovattostudio.com/en/shop/gui/layout-customizer/
+-IMPROVE: The capture of Flag game mode, cleaning the code, and improving the flag-carrying position.
+-IMPROVE: Local notifications systems now are modular and easily replaceable.
+-FIX: First pick-able item market with auto-respawn never respawn again.
+-IMPROVE: Bullet performance, less hit detection checks per frame with the same accuracy.
+-FIX: An issue that was causing bullets not to travel to where the player was aiming when a collider was near the weapon fire point.
+-IMPROVE: Head bob movement, added a slight vertical movement for a more realistic head motion.
+-ADD: Stealth Mode, default key Left Control makes the player move slowly and reduces the footstep sound volume.
+-FIX: Can't move the player after trying to suicide while spawn protection was active.
+-IMPROVE: Foot IK solver, now the knees and feet are also handled by the solver to prevent wrong legs orientation.
+-FIX: Can't close the pause menu with 'Escape' key.
+-ADDON: New Discord Login, allows authenticate in ULogin Pro with Discord accounts, LINK: https://www.lovattostudio.com/en/shop/network/discord-login/
+-IMPROVE: Now the in-room menu is managed in separated scripts to make it easier to modify and extend.
+-FIX: Join to team buttons do not appear when LobbyJoinMethod is set to DirectToMap.
+-IMPROVE: Add acceleration to the player movement to smooth the transition from idle to walk/run action.
+-FIX: Explosion damage was not being applied to vehicles or any damageable object with a Rigidbody in the root transform.
+-ADD: Weapon reload UI indicator, UI text that automatically shows, warning the player if needs to reload, has low or none ammunition left.
+-IMPROVE: Now Clan System addon is integrated into the MainMenu scene instead of in a separate scene.
+-FIX: Error in the editor regarding cleaning up the scene that is shown sometimes after stop play mode.
+-IMPROVE: Better weapon particles FX.
+-IMPROVE: Better player model weapon animations.
+-ADDON: New Player Pack #2 addon, integrates 4 player models from the Maksim Bugrimov's asset PBR Women Soldiers, LINK: https://www.lovattostudio.com/en/shop/addons/player-pack-2/
+-FIX: Kill Cam sometimes appears underfloor/surface where the player dies.
+-FIX: Bots kills were not counting in Free For All mode.
+-IMPROVE: Spawnpoint system, added cube shape option, to define spawn points with a cubic area instead of just a semi-sphere area.
+-IMPROVE: Now the player will automatically spawn snapped to the ground instead of to the spawn point vertical position.
+-FIX: Crosshair was not being faded out when aiming with the sniper.
+-FIX: System.Reflection.TargetException console error that was shown after every compilation or editor reload in Unity versions 2020.1++
+-IMPROVE: Add custom in-game cursor.
+-FIX: Turning on Friendly Fire had no effect.
+-IMPROVE: Now a gizmo line appears when selecting a TPWeapon indicating where the weapon should look at.
+-IMPROVE: It is automatically set up player Audio Sources to prevent hearing other players' sounds from long distances as if was close to the local player.
+-FIX: Player Kick feature was not working since Photon PUN 2.37
+-FIX: Player in-air control movement.
+-FIX: Turn on Invert Mouse Horizontal option also affect the Vertical movement.
+-FIX: Inspector lists in the MFPS Manager window can't be unfolded in Unity 2020.1 or newer versions.
+-IMPROVE: Now players can join as spectators from the Waiting Room menu.
+-IMPROVE: Now you can use custom player animations (Fire, Reload, Idle, and Fire) for each TPWeapon.
+-IMPROVE: Big CPU performance boost for bots in remote players and slightly improved for Master Client.
+-IMPROVE: Bots animation replication on all clients is now more accurate.
+-FIX: Crosshair remains static after switching to a sniper or pistol from a knife.
+-ADD: Resolution and Screen Display Mode in-game settings.
